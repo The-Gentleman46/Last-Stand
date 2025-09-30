@@ -27,7 +27,10 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"dirt - Copy.webp","CopyToMask":-1,"filePath":"datafiles","name":"dirt - Copy.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"dirt.webp","CopyToMask":-1,"filePath":"datafiles","name":"dirt.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -38,6 +41,7 @@
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Metal","path":"objects/Metal/Metal.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"Wood","path":"objects/Wood/Wood.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Background","path":"sprites/Background/Background.yy",},},
@@ -46,6 +50,7 @@
     {"id":{"name":"spr_metal","path":"sprites/spr_metal/spr_metal.yy",},},
     {"id":{"name":"spr_wood","path":"sprites/spr_wood/spr_wood.yy",},},
     {"id":{"name":"Trash_1","path":"sprites/Trash_1/Trash_1.yy",},},
+    {"id":{"name":"Zombie","path":"sprites/Zombie/Zombie.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
