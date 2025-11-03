@@ -1,16 +1,23 @@
 using UnityEngine;
+using System.Collections;
 
-public class ZombieScript : MonoBehaviour
+public class FollowAI : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject target; //the enemy's target
+    public float moveSpeed = 5; //move speed
+    public float rotationSpeed = 5; //speed of turning
+    private Rigidbody2D rb;
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
-
-    // Update is called once per frame
     void Update()
     {
-        
+        //rotate to look at the player
+        //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(target.transform.forward - transform.forward), rotationSpeed * Time.deltaTime);
+        //move towards the player
+        var dir = (target.transform.position - rb.gameObject.transform.position).normalized;
+        transform.position += dir * Time.deltaTime * moveSpeed;
+
     }
 }
