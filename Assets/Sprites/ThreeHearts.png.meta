@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ThreeHearts_0: 1919209540476071471
+      ThreeHearts_1: -4530066939980476863
+      ThreeHearts_2: 2375198192742343160
+      ThreeHearts_3: -2088322877485027892
+      ThreeHearts_4: -5144845944005562644
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
