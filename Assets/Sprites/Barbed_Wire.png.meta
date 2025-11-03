@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Barbed_Wire_0: 6947744563033568183
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
