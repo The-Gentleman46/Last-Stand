@@ -106,67 +106,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: joesef(2)_0
+      name: ZombieSheet_0
       rect:
         serializedVersion: 2
-        x: 79
-        y: 247
-        width: 78
-        height: 166
+        x: 0
+        y: 240
+        width: 240
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c2303e4abb26bffe0800000000000000
-      internalID: -1154220321425652948
+      spriteID: b483404ea93d02d4dabd505bc8755cee
+      internalID: 412386112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: joesef(2)_1
+      name: ZombieSheet_1
       rect:
         serializedVersion: 2
-        x: 319
-        y: 247
-        width: 78
-        height: 166
+        x: 240
+        y: 240
+        width: 240
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4a6d7b127d09d5fc0800000000000000
-      internalID: -3504485681366313308
+      spriteID: 3cc4e527ffac8ef479bdf6292451bb6c
+      internalID: -385159775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: joesef(2)_2
+      name: ZombieSheet_2
       rect:
         serializedVersion: 2
-        x: 79
-        y: 11
-        width: 78
-        height: 166
+        x: 0
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: aff833bc088b3a510800000000000000
-      internalID: 1559292759304802298
+      spriteID: d703a5e21bbc25a4fb0b6cb2fe57cc69
+      internalID: -1130171420
       vertices: []
       indices: 
       edges: []
@@ -175,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: efa602867d51c754cac3345c24be794b
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      joesef(2)_0: -1154220321425652948
-      joesef(2)_1: -3504485681366313308
-      joesef(2)_2: 1559292759304802298
+      ZombieSheet_0: 412386112
+      ZombieSheet_1: -385159775
+      ZombieSheet_2: -1130171420
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
