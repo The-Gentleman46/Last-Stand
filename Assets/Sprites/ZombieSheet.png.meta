@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 299362684f452b943b9abe9960e65a8e
+guid: 9d2d154abdccd174fa4414199d2bd867
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6777039084862658888
-    second: Joe_Stationary_0
+      213: -1154220321425652948
+    second: joesef(2)_0
+  - first:
+      213: -3504485681366313308
+    second: joesef(2)_1
+  - first:
+      213: 1559292759304802298
+    second: joesef(2)_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Joe_Stationary_0
+      name: joesef(2)_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 1
-        width: 21
-        height: 45
+        x: 79
+        y: 247
+        width: 78
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8495d223421ec0e50800000000000000
-      internalID: 6777039084862658888
+      spriteID: c2303e4abb26bffe0800000000000000
+      internalID: -1154220321425652948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joesef(2)_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 247
+        width: 78
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6d7b127d09d5fc0800000000000000
+      internalID: -3504485681366313308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joesef(2)_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 11
+        width: 78
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff833bc088b3a510800000000000000
+      internalID: 1559292759304802298
       vertices: []
       indices: 
       edges: []
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Joe_Stationary_0: 6777039084862658888
+      joesef(2)_0: -1154220321425652948
+      joesef(2)_1: -3504485681366313308
+      joesef(2)_2: 1559292759304802298
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
