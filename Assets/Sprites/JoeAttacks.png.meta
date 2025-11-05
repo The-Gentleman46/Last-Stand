@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: 9d2d154abdccd174fa4414199d2bd867
+guid: 0d8b029dbebde2948954344166dbcc37
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1154220321425652948
-    second: joesef(2)_0
+      213: -7289438713998095150
+    second: joesef(4)_0
   - first:
-      213: -3504485681366313308
-    second: joesef(2)_1
+      213: -8843967800851585191
+    second: joesef(4)_1
   - first:
-      213: 1559292759304802298
-    second: joesef(2)_2
+      213: 194571741725980326
+    second: joesef(4)_2
+  - first:
+      213: -1666882939198413376
+    second: joesef(4)_3
+  - first:
+      213: 118520345123211909
+    second: joesef(4)_4
+  - first:
+      213: 1599729978046894810
+    second: joesef(4)_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,67 +115,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ZombieSheet_0
+      name: joesef(4)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 240
-        width: 240
-        height: 240
+        x: 63
+        y: 487
+        width: 126
+        height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b483404ea93d02d4dabd505bc8755cee
-      internalID: 412386112
+      spriteID: 2dcc9285c16b6da90800000000000000
+      internalID: -7289438713998095150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ZombieSheet_1
+      name: joesef(4)_1
       rect:
         serializedVersion: 2
-        x: 240
-        y: 240
-        width: 240
-        height: 240
+        x: 303
+        y: 487
+        width: 177
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3cc4e527ffac8ef479bdf6292451bb6c
-      internalID: -385159775
+      spriteID: 957af39742ae34580800000000000000
+      internalID: -8843967800851585191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ZombieSheet_2
+      name: joesef(4)_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 240
-        height: 240
+        x: 63
+        y: 247
+        width: 178
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d703a5e21bbc25a4fb0b6cb2fe57cc69
-      internalID: -1130171420
+      spriteID: 6a6f7ecd7f143b200800000000000000
+      internalID: 194571741725980326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joesef(4)_3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 247
+        width: 126
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c56bee5cca0ed8e0800000000000000
+      internalID: -1666882939198413376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joesef(4)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 177
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ac9bd30a115a100800000000000000
+      internalID: 118520345123211909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joesef(4)_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 7
+        width: 178
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2570670f1633610800000000000000
+      internalID: 1599729978046894810
       vertices: []
       indices: 
       edges: []
@@ -175,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: efa602867d51c754cac3345c24be794b
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ZombieSheet_0: 412386112
-      ZombieSheet_1: -385159775
-      ZombieSheet_2: -1130171420
+      joesef(4)_0: -7289438713998095150
+      joesef(4)_1: -8843967800851585191
+      joesef(4)_2: 194571741725980326
+      joesef(4)_3: -1666882939198413376
+      joesef(4)_4: 118520345123211909
+      joesef(4)_5: 1599729978046894810
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
