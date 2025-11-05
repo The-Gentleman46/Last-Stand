@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 2d298938348d90146a0361810265af08
+guid: 94f853c77c25200498959dcb6e44df64
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1020786049091297706
-    second: Joe_Walking_0
+      213: -4588328027837637036
+    second: joesef(3)_0
+  - first:
+      213: 2785807184981941129
+    second: joesef(3)_1
+  - first:
+      213: 7585459075305601131
+    second: joesef(3)_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Joe_Walking_0
+      name: joesef(3)_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 1
-        width: 21
-        height: 45
+        x: 79
+        y: 247
+        width: 78
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa1e2c7d08f8a2e00800000000000000
-      internalID: 1020786049091297706
+      spriteID: 45ed4cbf7fbf250c0800000000000000
+      internalID: -4588328027837637036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joesef(3)_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 247
+        width: 78
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b5499ffdc29a620800000000000000
+      internalID: 2785807184981941129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joesef(3)_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 7
+        width: 78
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b687ad9e6d6f44960800000000000000
+      internalID: 7585459075305601131
       vertices: []
       indices: 
       edges: []
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Joe_Walking_0: 1020786049091297706
+      joesef(3)_0: -4588328027837637036
+      joesef(3)_1: 2785807184981941129
+      joesef(3)_2: 7585459075305601131
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
