@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: joesef(3)_0
+      name: Joe_Standing
       rect:
         serializedVersion: 2
         x: 79
@@ -114,7 +114,7 @@ TextureImporter:
         width: 78
         height: 174
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -128,7 +128,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: joesef(3)_1
+      name: Joe_WalkLeft
       rect:
         serializedVersion: 2
         x: 319
@@ -136,7 +136,7 @@ TextureImporter:
         width: 78
         height: 174
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -150,7 +150,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: joesef(3)_2
+      name: Joe_WalkRight
       rect:
         serializedVersion: 2
         x: 79
@@ -158,7 +158,7 @@ TextureImporter:
         width: 78
         height: 174
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 79ac287c84c5c2348b106151b342ca42
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      joesef(3)_0: -4588328027837637036
-      joesef(3)_1: 2785807184981941129
-      joesef(3)_2: 7585459075305601131
+      Joe_Standing: -4588328027837637036
+      Joe_WalkLeft: 2785807184981941129
+      Joe_WalkRight: 7585459075305601131
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

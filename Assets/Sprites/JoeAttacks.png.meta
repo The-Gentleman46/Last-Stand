@@ -115,7 +115,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: joesef(4)_0
+      name: Attack_upRight
       rect:
         serializedVersion: 2
         x: 63
@@ -123,7 +123,7 @@ TextureImporter:
         width: 126
         height: 206
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: joesef(4)_1
+      name: Attack_midRight
       rect:
         serializedVersion: 2
         x: 303
@@ -145,7 +145,7 @@ TextureImporter:
         width: 177
         height: 174
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,7 +159,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: joesef(4)_2
+      name: Attack_downRight
       rect:
         serializedVersion: 2
         x: 63
@@ -167,7 +167,7 @@ TextureImporter:
         width: 178
         height: 174
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,15 +181,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: joesef(4)_3
+      name: Attack_upLeft
       rect:
         serializedVersion: 2
-        x: 291
+        x: 292
         y: 247
         width: 126
         height: 206
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,7 +203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: joesef(4)_4
+      name: Attack_midLeft
       rect:
         serializedVersion: 2
         x: 0
@@ -211,7 +211,7 @@ TextureImporter:
         width: 177
         height: 174
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,7 +225,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: joesef(4)_5
+      name: Attack_downLeft
       rect:
         serializedVersion: 2
         x: 239
@@ -233,7 +233,7 @@ TextureImporter:
         width: 178
         height: 174
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -250,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a3e4b5f5ed5dbfa4d9bb34ed290456d2
     internalID: 0
     vertices: []
     indices: 
@@ -260,12 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      joesef(4)_0: -7289438713998095150
-      joesef(4)_1: -8843967800851585191
-      joesef(4)_2: 194571741725980326
-      joesef(4)_3: -1666882939198413376
-      joesef(4)_4: 118520345123211909
-      joesef(4)_5: 1599729978046894810
+      Attack_downLeft: 1599729978046894810
+      Attack_downRight: 194571741725980326
+      Attack_midLeft: 118520345123211909
+      Attack_midRight: -8843967800851585191
+      Attack_upLeft: -1666882939198413376
+      Attack_upRight: -7289438713998095150
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
