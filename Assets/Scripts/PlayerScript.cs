@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    int health = 100;
+    int health = 5;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,7 +20,7 @@ public class PlayerScript : MonoBehaviour
         transform.position += movement * 5f * Time.deltaTime;
     }
 
-    void healthChange(int change)
+    public void healthChange(int change)
     {
         health += change;
     }
