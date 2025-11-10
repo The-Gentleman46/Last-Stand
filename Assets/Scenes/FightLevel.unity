@@ -3141,7 +3141,7 @@ GameObject:
   - component: {fileID: 483590933}
   - component: {fileID: 483590932}
   m_Layer: 0
-  m_Name: ZombieSheet_0
+  m_Name: Zombie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4019,7 +4019,7 @@ GameObject:
   - component: {fileID: 604084031}
   - component: {fileID: 604084033}
   m_Layer: 0
-  m_Name: Joe_Stationary_0
+  m_Name: Joe Bodham
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7853,7 +7853,7 @@ GameObject:
   - component: {fileID: 1523548323}
   - component: {fileID: 1523548322}
   m_Layer: 0
-  m_Name: SpriteRepeater
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7939,7 +7939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1536919280}
   m_Layer: 0
-  m_Name: BarbedWire_Hold
+  m_Name: Barbed Wire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
