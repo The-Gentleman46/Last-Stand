@@ -20,7 +20,7 @@ public class PlayerScript : MonoBehaviour
         transform.position += movement * 5f * Time.deltaTime;
     }
 
-    void healthChange(int change)
+    public void healthChange(int change)
     {
         health += change;
     }
