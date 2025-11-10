@@ -7,6 +7,6 @@ public class MedPack : MonoBehaviour
 
     public void OnCollisionEnter2D (Collision2D coll)
     {
-        coll.gameObject.GetComponent<PlayerScript>().healthChange(20);
+        coll.gameObject.GetComponent<PlayerScript>().healthChange(1);
     }
 }
