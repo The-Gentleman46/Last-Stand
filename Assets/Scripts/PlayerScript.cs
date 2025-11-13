@@ -4,10 +4,11 @@ public class PlayerScript : MonoBehaviour
 {
     public int health = 5;
     public GameObject[] hpSprites = new GameObject[6];
+    public Animator anim;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -30,6 +31,12 @@ public class PlayerScript : MonoBehaviour
                 hpSprites[i].SetActive(false);
             }
         }
+
+        // Checks if the player is pressing left/right mouse and triggers attack animations
+        bool Attack_Right = (Input.GetKeyDown(KeyCode.Mouse0));
+        anim.SetBool("Attack_Right", Attack_Right);
+        bool Attack_Left = (Input.GetKeyDown(KeyCode.Mouse1));
+        anim.SetBool("Attack_Left", Attack_Left);
     }
 
     public void OnCollisionEnter2D(Collision2D coll)
