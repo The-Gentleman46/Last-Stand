@@ -24,11 +24,19 @@ public class PlayerScript : MonoBehaviour
     {
         if (coll.gameObject.CompareTag("MedPack") == true)
         {
-            healthPickup(1);        
+            healthPickup(1);
+            Destroy(coll.gameObject);
+
         }
 
     }
-        
+    public void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.gameObject.CompareTag("Enemy") == true)
+        {
+            healthPickup(-1);        
+        }
+    }
 
     public void healthPickup(int change)
     {
