@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     public int health = 5;
+    public GameObject[] hpSprites = new GameObject[6];
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,13 +19,24 @@ public class PlayerScript : MonoBehaviour
         Vector3 movement = new Vector3(horizontalInput, verticalInput, 0f).normalized;
 
         transform.position += movement * 5f * Time.deltaTime;
+        for (int i = 0; i < hpSprites.Length; i++)
+        {
+            if (i == health)
+            {
+                hpSprites[i].SetActive(true);
+            }
+            else
+            {
+                hpSprites[i].SetActive(false);
+            }
+        }
     }
 
     public void OnCollisionEnter2D(Collision2D coll)
     {
         if (coll.gameObject.CompareTag("MedPack") == true)
         {
-            healthPickup(1);
+            healthChange(1);
             Destroy(coll.gameObject);
 
         }
@@ -34,12 +46,14 @@ public class PlayerScript : MonoBehaviour
     {
         if (coll.gameObject.CompareTag("Enemy") == true)
         {
-            healthPickup(-1);        
+            healthChange(-1);        
         }
     }
-
-    public void healthPickup(int change)
+    public void healthChange(int change)
     {
-        health += change;
+        if ((change < 0 && health > 0) || (change > 0 && health < 5))
+        {
+            health += change;
+        }
     }
 }
