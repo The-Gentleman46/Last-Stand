@@ -4038,13 +4038,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
-  hpSprites:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!212 &604084026
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8194,7 +8187,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1208040086343421634, guid: 05f5d18e32626a64bb7fb4e4b29f9785, type: 3}
+  m_Sprite: {fileID: -3745778777022008171, guid: 605caaadcdb363b4fb41221ac96b93d7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
