@@ -5,7 +5,7 @@ public class HealthKitSpawner : MonoBehaviour
 {
 
     float timeElapsed;
-    public GameObject HealthKit;
+    public GameObject MedPack;
     public GameObject Player;
 
 
@@ -14,7 +14,7 @@ public class HealthKitSpawner : MonoBehaviour
         int spawnPointX = (int)UnityEngine.Random.Range(transform.position.x - 40, transform.position.x + 40);
         int spawnPointY = (int)UnityEngine.Random.Range(transform.position.y - 40, transform.position.y + 40);
         Vector2 zombSpawnPos = new Vector2(spawnPointX, spawnPointY);
-        Instantiate(HealthKit, zombSpawnPos, Quaternion.identity);
+        Instantiate(MedPack, zombSpawnPos, Quaternion.identity);
     }
     void Update()
     {
