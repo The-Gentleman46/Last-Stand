@@ -1,8 +1,10 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
     public int health = 5;
+    public bool immune = false;
     public GameObject[] hpSprites = new GameObject[6];
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,20 +36,35 @@ public class PlayerScript : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.CompareTag("MedPack") == true)
+        if (!immune && coll.gameObject.CompareTag("MedPack") == true)
         {
             healthChange(1);
             Destroy(coll.gameObject);
-
         }
 
+        
     }
-    public void OnTriggerEnter2D(Collider2D coll)
+
+    public void OnCollisionStay2D(Collision2D coll)
     {
         if (coll.gameObject.CompareTag("Enemy") == true)
         {
-            healthChange(-1);        
+            if (!immune)
+            {
+                healthChange(-1);
+                StartCoroutine(DoImmunity(2));
+            }
         }
+    }
+    IEnumerator DoImmunity(float immuneTime) {
+        immune = true;
+        float timer = 0;
+        while( timer < immuneTime )
+        {
+            yield return null;
+            timer += Time.deltaTime;
+        }
+        immune = false;
     }
     public void healthChange(int change)
     {
