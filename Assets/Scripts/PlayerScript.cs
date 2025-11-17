@@ -1,5 +1,5 @@
 using System.Collections;
-using UnityEditor.Experimental.GraphView;
+using UnityEditor.SearchService;
 using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
@@ -77,6 +77,18 @@ public class PlayerScript : MonoBehaviour
         if ((change < 0 && health > 0) || (change > 0 && health < 5))
         {
             health += change;
+            if (health == 0)
+            {
+                Die();
+            }
+        }
+      
+    }
+    public void Die()
+    {
+        if (health == 0)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("death_message");
         }
     }
 }
