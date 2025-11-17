@@ -1,13 +1,16 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
     public int health = 5;
+    public bool immune = false;
     public GameObject[] hpSprites = new GameObject[6];
+    public Animator anim;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -30,24 +33,45 @@ public class PlayerScript : MonoBehaviour
                 hpSprites[i].SetActive(false);
             }
         }
+
+        // Checks if the player is pressing left/right mouse and triggers attack animations
+        bool Attack_Right = (Input.GetKeyDown(KeyCode.Mouse0));
+        anim.SetBool("Attack_Right", Attack_Right);
+        bool Attack_Left = (Input.GetKeyDown(KeyCode.Mouse1));
+        anim.SetBool("Attack_Left", Attack_Left);
     }
 
     public void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.CompareTag("MedPack") == true)
+        if (!immune && coll.gameObject.CompareTag("MedPack") == true)
         {
             healthChange(1);
             Destroy(coll.gameObject);
-
         }
 
+        
     }
-    public void OnTriggerEnter2D(Collider2D coll)
+
+    public void OnCollisionStay2D(Collision2D coll)
     {
         if (coll.gameObject.CompareTag("Enemy") == true)
         {
-            healthChange(-1);        
+            if (!immune)
+            {
+                healthChange(-1);
+                StartCoroutine(DoImmunity(2));
+            }
         }
+    }
+    IEnumerator DoImmunity(float immuneTime) {
+        immune = true;
+        float timer = 0;
+        while( timer < immuneTime )
+        {
+            yield return null;
+            timer += Time.deltaTime;
+        }
+        immune = false;
     }
     public void healthChange(int change)
     {
