@@ -3,26 +3,18 @@ using UnityEngine;
 
 public class KillingScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-
-    }
-    public void OnCollisionEnter(Collider2D coll)
+    
+    public void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.CompareTag("Enemy"))
         {
-            Destroy(coll.gameObject);
+           Destroy(coll.gameObject);
            
         }
     }
-
+    /*public void AddScore(int score)
+        {
+            playerScore += score;
+        }*/
 }
 
