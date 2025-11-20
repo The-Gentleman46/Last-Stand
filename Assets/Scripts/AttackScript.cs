@@ -13,22 +13,19 @@ public class AttackScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Checks if the player is pressing Q/E and triggers attack animations
-        Axe_Hitbox.SetActive(false);
-        if (Input.GetKeyDown("e"))
+
+        if (Input.GetKeyDown(KeyCode.E))
         {
             Axe_Hitbox.SetActive(true);
             anim.SetTrigger("Attack_Right");
-
         }
-        else if (Input.GetKeyDown("q"))
+        else if (Input.GetKeyDown(KeyCode.Q))
         {
             Axe_Hitbox.SetActive(true);
             anim.SetTrigger("Attack_Left");
         }
-        else
-        {
-            Axe_Hitbox.SetActive(false);
-        }
+        
+        
     }
+  
 }
