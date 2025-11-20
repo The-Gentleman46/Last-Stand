@@ -9,5 +9,6 @@ public class AxeAttack : MonoBehaviour
         {
             zombie.life -= 1;
         }
+        
     }
 }
