@@ -10939,6 +10939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1228419353}
   - component: {fileID: 1228419354}
+  - component: {fileID: 1228419355}
   m_Layer: 0
   m_Name: Axe_Hitbox
   m_TagString: Untagged
@@ -11007,6 +11008,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.5, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &1228419355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228419352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dedc5e729cbb9d044bfca71dceef6b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1236474454
 GameObject:
   m_ObjectHideFlags: 0
@@ -12505,6 +12518,7 @@ GameObject:
   - component: {fileID: 1523548323}
   - component: {fileID: 1523548322}
   - component: {fileID: 1523548324}
+  - component: {fileID: 1523548325}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -12595,6 +12609,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MedPack: {fileID: 0}
+--- !u!114 &1523548325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523548321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dedc5e729cbb9d044bfca71dceef6b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1536919279
 GameObject:
   m_ObjectHideFlags: 0
