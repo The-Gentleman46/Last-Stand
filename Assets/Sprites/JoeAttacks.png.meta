@@ -111,6 +111,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -120,8 +133,8 @@ TextureImporter:
         serializedVersion: 2
         x: 63
         y: 487
-        width: 126
-        height: 206
+        width: 125
+        height: 205
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,7 +156,7 @@ TextureImporter:
         x: 303
         y: 487
         width: 177
-        height: 174
+        height: 205
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,7 +178,7 @@ TextureImporter:
         x: 63
         y: 247
         width: 178
-        height: 174
+        height: 205
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,7 +200,7 @@ TextureImporter:
         x: 292
         y: 247
         width: 126
-        height: 206
+        height: 205
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,7 +222,7 @@ TextureImporter:
         x: 0
         y: 7
         width: 177
-        height: 174
+        height: 205
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,7 +244,7 @@ TextureImporter:
         x: 239
         y: 7
         width: 178
-        height: 174
+        height: 205
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a3e4b5f5ed5dbfa4d9bb34ed290456d2
+    spriteID: 09b2c130b5b429040bda8acf2632975e
     internalID: 0
     vertices: []
     indices: 
@@ -266,6 +279,12 @@ TextureImporter:
       Attack_midRight: -8843967800851585191
       Attack_upLeft: -1666882939198413376
       Attack_upRight: -7289438713998095150
+      Axe_DownRight: 516749243
+      Axe_MidDown: 1947264309
+      Axe_MidLeft: 1157214788
+      Axe_RightMid: 1259124856
+      Axe_UpLeft: 1074713541
+      Axe_UpRight: 613125481
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
