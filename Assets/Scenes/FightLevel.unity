@@ -6131,6 +6131,7 @@ GameObject:
   - component: {fileID: 604084032}
   - component: {fileID: 604084033}
   - component: {fileID: 604084034}
+  - component: {fileID: 604084035}
   m_Layer: 0
   m_Name: Joe Bodham
   m_TagString: Untagged
@@ -6151,6 +6152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
+  immune: 0
   hpSprites:
   - {fileID: 621337077}
   - {fileID: 1034799347}
@@ -6158,6 +6160,8 @@ MonoBehaviour:
   - {fileID: 1844895929}
   - {fileID: 870673176}
   - {fileID: 942945472}
+  anim: {fileID: 0}
+  Axe_Hitbox: {fileID: 0}
 --- !u!212 &604084026
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6397,6 +6401,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.78, y: 1.7400498}
   m_EdgeRadius: 0
+--- !u!114 &604084035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604084024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c62c8fd13f6a32b4b8673772d0b6178b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 604084029}
+  Axe_Hitbox: {fileID: 1228419352}
 --- !u!1 &614890131
 GameObject:
   m_ObjectHideFlags: 0
@@ -12577,7 +12595,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MedPack: {fileID: 0}
-  Player: {fileID: 0}
 --- !u!1 &1536919279
 GameObject:
   m_ObjectHideFlags: 0
