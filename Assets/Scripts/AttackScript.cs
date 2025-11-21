@@ -13,7 +13,7 @@ public class AttackScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
         if (Input.GetKeyDown(KeyCode.E))
         {
             Axe_Hitbox.SetActive(true);
@@ -24,8 +24,6 @@ public class AttackScript : MonoBehaviour
             Axe_Hitbox.SetActive(true);
             anim.SetTrigger("Attack_Left");
         }
-        
-        
     }
   
 }

@@ -14,15 +14,16 @@ public class ZombieScript : MonoBehaviour
     }
     void Update()
     {
-        //rotate to look at the player
-        //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(target.transform.forward - transform.forward), rotationSpeed * Time.deltaTime);
-        //move towards the player
+        /* rotate to look at the player
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(target.transform.forward - transform.forward), rotationSpeed * Time.deltaTime);
+        move towards the player */
         var dir = (target.transform.position - rb.gameObject.transform.position).normalized;
         transform.position += dir * Time.deltaTime * moveSpeed;
 
-        //Zombie Death
+        //Zombie Death linked to AxeAttack
         if (life < 0)
         {
+            Kill_Counter.scoreValue++;
             Destroy(gameObject);
         }
     }
