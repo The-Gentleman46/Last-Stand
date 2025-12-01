@@ -24,8 +24,7 @@ public class ZombieScript : MonoBehaviour
         //Zombie Death linked to AxeAttack
         if (life < 0)
         {
-            //Kill_Counter.scoreValue++;
-            Kill_Counter.AddScore(1);
+            Kill_Counter.scoreValue++;
             Destroy(gameObject);
         }
     }

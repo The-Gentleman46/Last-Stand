@@ -24,6 +24,17 @@ public class AttackScript : MonoBehaviour
             Axe_Hitbox.SetActive(true);
             anim.SetTrigger("Attack_Left");
         }
+        
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            Axe_Hitbox.SetActive(false);
+            anim.ResetTrigger("Attack_Right");
+        }
+        else if (Input.GetKeyUp(KeyCode.Q))
+        {
+            Axe_Hitbox.SetActive(false);
+            anim.ResetTrigger("Attack_Left");
+        }
     }
   
 }
