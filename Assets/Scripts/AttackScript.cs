@@ -14,12 +14,12 @@ public class AttackScript : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             Axe_Hitbox.SetActive(true);
             anim.SetTrigger("Attack_Right");
         }
-        else if (Input.GetKeyDown(KeyCode.Q))
+        else if (Input.GetKeyDown(KeyCode.O))
         {
             Axe_Hitbox.SetActive(true);
             anim.SetTrigger("Attack_Left");
