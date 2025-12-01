@@ -9,6 +9,7 @@ public class ZombieScript : MonoBehaviour
     private Rigidbody2D rb;
     public float life = 1;
     void Start()
+
     {
         rb = GetComponent<Rigidbody2D>();
     }
@@ -23,7 +24,8 @@ public class ZombieScript : MonoBehaviour
         //Zombie Death linked to AxeAttack
         if (life < 0)
         {
-            Kill_Counter.scoreValue++;
+            //Kill_Counter.scoreValue++;
+            Kill_Counter.AddScore(1);
             Destroy(gameObject);
         }
     }
