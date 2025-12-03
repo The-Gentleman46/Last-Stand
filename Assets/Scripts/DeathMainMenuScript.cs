@@ -1,10 +1,16 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 public class DeathMainMenuScript : MonoBehaviour
 {
-    public void GoToMenu()
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
     {
-        SceneManager.LoadScene("MainScene");
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
-
