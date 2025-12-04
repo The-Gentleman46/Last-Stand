@@ -20,4 +20,9 @@ public class Kill_Counter : MonoBehaviour
     {
         score.text = "Zombies Killed: " + scoreValue;
     }
+
+    public static void AddScore(int points)
+    {
+        scoreValue += points;
+    }
 }

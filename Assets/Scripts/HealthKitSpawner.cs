@@ -4,8 +4,7 @@ using UnityEngine;
 public class HealthKitSpawner : MonoBehaviour
 {
 
-    float timeElapsed=0;
-    float timeBetweenRandomHealthSpawn = 5;
+    float timeElapsed;
     public GameObject MedPack;
 
     public void RandomHealthSpawn()
@@ -18,9 +17,8 @@ public class HealthKitSpawner : MonoBehaviour
     void Update()
     {
         timeElapsed += Time.deltaTime;
-        while (timeElapsed > timeBetweenRandomHealthSpawn)
+        while ((int)timeElapsed % 5 == 0)
         {
-            timeElapsed -= timeBetweenRandomHealthSpawn;
             RandomHealthSpawn();
         }
     }
