@@ -4632,8 +4632,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 354.38538, y: 224}
-  m_SizeDelta: {x: 200, y: 57}
+  m_AnchoredPosition: {x: 328.92432, y: 212.5877}
+  m_SizeDelta: {x: 231.5515, y: 80.8246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &433911783
 MonoBehaviour:
@@ -4647,6 +4647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54151af185803744fb711b10069c30c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: {fileID: 0}
 --- !u!114 &433911784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4732,7 +4733,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -64.081055, w: 0}
+  m_margin: {x: 0, y: 0, z: -107.22278, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5027,7 +5028,6 @@ GameObject:
   - component: {fileID: 483590929}
   - component: {fileID: 483590933}
   - component: {fileID: 483590932}
-  - component: {fileID: 483590934}
   - component: {fileID: 483590935}
   - component: {fileID: 483590936}
   m_Layer: 0
@@ -5196,18 +5196,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.8132629, y: 1.717102}
   m_EdgeRadius: 0
---- !u!114 &483590934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483590928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fe1cd77456629c4ab6b6e19b768955a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &483590935
 Animator:
   serializedVersion: 7
@@ -5242,6 +5230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54151af185803744fb711b10069c30c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: {fileID: 0}
 --- !u!1 &505252730
 GameObject:
   m_ObjectHideFlags: 0
@@ -11258,7 +11247,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1236474457}
   - component: {fileID: 1236474456}
-  - component: {fileID: 1236474455}
   - component: {fileID: 1236474458}
   m_Layer: 0
   m_Name: MedPack
@@ -11267,18 +11255,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1236474455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1236474454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bc95e93bc05c6c4a810018953453288, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1236474456
 SpriteRenderer:
   m_ObjectHideFlags: 0

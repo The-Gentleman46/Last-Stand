@@ -17,7 +17,7 @@ public class HealthKitSpawner : MonoBehaviour
     void Update()
     {
         timeElapsed += Time.deltaTime;
-        while ((int)timeElapsed % 5 == 0)
+        while (((int)timeElapsed) % 5 == 0)
         {
             RandomHealthSpawn();
         }
