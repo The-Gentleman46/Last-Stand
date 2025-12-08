@@ -4647,7 +4647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54151af185803744fb711b10069c30c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 0}
+  score: {fileID: 433911784}
 --- !u!114 &433911784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4668,7 +4668,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Zombies Killed: '
+  m_text: 'Zombies Killed : '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5029,7 +5029,6 @@ GameObject:
   - component: {fileID: 483590933}
   - component: {fileID: 483590932}
   - component: {fileID: 483590935}
-  - component: {fileID: 483590936}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Enemy
@@ -5218,19 +5217,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &483590936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483590928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54151af185803744fb711b10069c30c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: {fileID: 0}
 --- !u!1 &505252730
 GameObject:
   m_ObjectHideFlags: 0
@@ -11210,6 +11196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc5e729cbb9d044bfca71dceef6b4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  killCounter: {fileID: 433911783}
 --- !u!50 &1228419356
 Rigidbody2D:
   serializedVersion: 5
