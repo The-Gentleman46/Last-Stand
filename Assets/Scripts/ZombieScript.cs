@@ -5,7 +5,6 @@ using TMPro;
 public class ZombieScript : MonoBehaviour
 {
     public GameObject target; //the enemy's target
-    public Kill_Counter killCounter;
     public float moveSpeed = 5; //move speed
     public float rotationSpeed = 5; //speed of turning
     private Rigidbody2D rb;
@@ -21,10 +20,5 @@ public class ZombieScript : MonoBehaviour
         move towards the player */
         var dir = (target.transform.position - rb.gameObject.transform.position).normalized;
         transform.position += dir * Time.deltaTime * moveSpeed;
-        //Zombie Death linked to AxeAttack
-        if (life < 0)
-        {
-            Destroy(gameObject);
-        }
     }
 }
