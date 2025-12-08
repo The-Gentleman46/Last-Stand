@@ -1,15 +1,16 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 public class ZombieScript : MonoBehaviour
 {
     public GameObject target; //the enemy's target
+    public Kill_Counter killCounter;
     public float moveSpeed = 5; //move speed
     public float rotationSpeed = 5; //speed of turning
     private Rigidbody2D rb;
     public float life = 1;
     void Start()
-
     {
         rb = GetComponent<Rigidbody2D>();
     }
@@ -20,14 +21,10 @@ public class ZombieScript : MonoBehaviour
         move towards the player */
         var dir = (target.transform.position - rb.gameObject.transform.position).normalized;
         transform.position += dir * Time.deltaTime * moveSpeed;
-
         //Zombie Death linked to AxeAttack
         if (life < 0)
         {
-            //Kill_Counter.scoreValue++;
-            Kill_Counter.AddScore(1);
             Destroy(gameObject);
         }
     }
-
 }
