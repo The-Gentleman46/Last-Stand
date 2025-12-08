@@ -1,12 +1,7 @@
-using System;
 using UnityEngine;
-
 public class HealthKitSpawner : MonoBehaviour
 {
-
-    float timeElapsed;
     public GameObject MedPack;
-
     public void RandomHealthSpawn()
     {
         int spawnPointX = (int)UnityEngine.Random.Range(transform.position.x - 40, transform.position.x + 40);
@@ -14,14 +9,4 @@ public class HealthKitSpawner : MonoBehaviour
         Vector2 HealthSpawnPos = new Vector2(spawnPointX, spawnPointY);
         Instantiate(MedPack, HealthSpawnPos, Quaternion.identity);
     }
-    void Update()
-    {
-        timeElapsed += Time.deltaTime;
-        while (((int)timeElapsed) % 5 == 0)
-        {
-            RandomHealthSpawn();
-        }
-    }
 }
-
-

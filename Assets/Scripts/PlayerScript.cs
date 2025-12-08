@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-
 public class PlayerScript : MonoBehaviour
 {
     public int health = 5;
@@ -13,15 +12,12 @@ public class PlayerScript : MonoBehaviour
     {
         
     }
-
     // Update is called once per frame
     void Update()
     {
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
-
         Vector3 movement = new Vector3(horizontalInput, verticalInput, 0f).normalized;
-
         transform.position += movement * 5f * Time.deltaTime;
         for (int i = 0; i < hpSprites.Length; i++)
         {
@@ -34,22 +30,15 @@ public class PlayerScript : MonoBehaviour
                 hpSprites[i].SetActive(false);
             }
         }
-
-        
-
     }
-    
     public void OnCollisionEnter2D(Collision2D coll)
     {
-        if (!immune && coll.gameObject.CompareTag("MedPack") == true)
+        if (coll.gameObject.CompareTag("MedPack") == true)
         {
             healthChange(1);
             Destroy(coll.gameObject);
         }
-
-        
     }
-
     public void OnCollisionStay2D(Collision2D coll)
     {
         if (coll.gameObject.CompareTag("Enemy") == true)

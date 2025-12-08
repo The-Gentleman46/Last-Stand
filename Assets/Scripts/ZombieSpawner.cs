@@ -1,16 +1,11 @@
-using System;
 using UnityEngine;
-
 public class SpawnController : MonoBehaviour
 {
-
     float timeElapsed;
     int maxZombies = 1;
     int zombies = 1;
     public GameObject Zombie;
     public GameObject Player;
-    
-
     public void RandomSpawn()
     {
         int spawnPointX = (int)UnityEngine.Random.Range(transform.position.x - 10, transform.position.x + 10);
@@ -29,5 +24,3 @@ public class SpawnController : MonoBehaviour
         }
     }
 }
-
-
